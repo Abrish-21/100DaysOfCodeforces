@@ -3,10 +3,10 @@ def whoWon(n,score):
     danik_count = 0
     result = ''
     for i in score:
-        if i =="D":
+        if i =="A":
             anton_count +=1
         else:
-            danik_counr +=1
+            danik_count +=1
     if anton_count > danik_count:
         result = "Anton"
     elif danik_count > anton_count:
